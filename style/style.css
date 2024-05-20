@@ -55,3 +55,20 @@ header{
     font-size: larger;
     font-weight: bold;
 }
+#secctionone{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+.titt{
+   text-align: center;
+   width: 70vh;
+   margin-left: 60vh;
+   padding: 30px;
+   font-size: 45px;
+}
+#image1{
+  display: flex;
+  justify-content: space-around;
+}
