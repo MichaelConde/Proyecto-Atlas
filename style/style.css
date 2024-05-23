@@ -72,3 +72,77 @@ header{
   display: flex;
   justify-content: space-around;
 }
+#secciontwo{
+   
+    background: -webkit-linear-gradient(-82deg, #ffffff 35%, #00FFAD 15%);
+    flex-direction: column;
+   
+}
+.titulosecciontwo{
+    width: 100vh;
+    margin-left: 25vh;
+    margin-top: 10vh;
+    font-size: 60px;
+}
+#asidetwo{
+    margin-top: 10vh;
+    display: flex;
+flex-direction: column;
+
+}
+#parraftwo{
+    margin-top: 3vh;
+    margin-left: 25vh;
+    max-width: 60vh;
+    font-size: 20px;
+}
+#imgsectiontwo{
+    margin-left: 120vh;
+    max-width: 60vh;
+    margin-top: -25vh;
+
+}
+#buttomsectiontwo{
+    margin-top: 40px;
+    max-width: 15vh;
+    margin-left: 26vh;
+    height: 50px;
+    border-radius: 30px;
+    font-size: x-large;
+    background-color: #192440;
+    color: white;
+    
+}
+#asidetwo2{
+    display: flex;
+    margin-top: 20vh;
+}
+#textbutton{
+    flex-direction: column;
+    max-width: 100vh;
+    padding: 40px;
+    margin-left: 5vh;
+}
+#imgsectiontwo2{
+    padding-bottom: 40px;
+    padding-top:40px ;
+    margin-left: 20vh;
+}
+.titulosecciontwo2{
+    font-size: 60px;
+    
+}
+#buttomsectiontwo2{
+ margin-top: 40px;
+ width: 15vh;
+ border-radius: 30px;
+ height: 50px;
+ background-color: #192440;
+ color: white;
+ font-size: x-large;
+} 
+#textasidetwo2{
+    margin-top: 3vh;
+    font-size: 20px;
+    max-width: 80vh;
+}
