@@ -318,3 +318,57 @@ margin-left: 2vh;
    padding-right: 5vh;
 
 }
+
+
+@media screen and (max-width:1279px) {
+    body {
+       header{
+    width: 100%;
+    background-image: url(../assets/images/banner-bk.jpg);
+    color: white;
+    height: 61vh;
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+}
+        .one{
+            font-size: 8vh;
+            width: 100vh;
+            font-weight: bold;
+        }
+        #imgsectiontwo{
+            margin-left: 90vh;
+            max-width: 60vh;
+            margin-top: -25vh;
+            margin-right: 5vh;
+        
+        }
+        #tittlepricing{
+            font-size: 5vh;
+            margin-left: 48vh;
+            margin-top: 10vh;
+        }
+        #name{
+            margin-top: 8vh;
+            padding: 2vh;
+            color: white;
+            font-size: 3vh;
+            width: 30vh;
+            margin-left: 50px;
+            
+            }
+            #email{
+                margin-top: 8vh;
+                padding: 2vh;
+                color: white;
+                font-size: 3vh;
+                width: 20vh;
+                margin-right: 10vh;
+              
+            }
+      
+    #text{
+     max-width: 40vh;   
+    }
+    }
+    }
