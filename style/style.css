@@ -148,8 +148,62 @@ flex-direction: column;
 }
 #pricing{
     display: flex;
+    justify-content:center;
+    margin-top: -10vh;
+    margin-right: 30px;
 }
 #premium{
     margin-top: 20vh;
-    line-height: 35px
+    line-height: 50px;
+    text-align: center;
+    margin-top: 25vh;
+    padding-right: 10vh;
+   
+}
+#startup{
+    margin-top: 20vh;
+    line-height: 50px;
+    text-align: center;
+    background-color: #192440;
+    color: white;
+    border-radius: 10px;
+    width: 40vh;
+}
+#professional{
+    margin-top: 20vh;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 25vh;
+    padding-left: 10vh;
+}
+span{
+    font-size: 100px;
+}
+#textstartup{
+    padding: 5vh;
+}
+#tittlepricing{
+ font-size: 5vh;
+   margin-left: 77vh;
+   margin-top: 10vh;
+}
+#buttomtarjet{
+    margin-top: 40px;
+ width: 15vh;
+ border-radius: 30px;
+ height: 50px;
+ background-color: white;
+ color: #192440;
+ border-color: black;
+ font-size: x-large;
+ border-width: 3px;
+}
+#buttomstar{
+    background-color: #00FFAD;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 30px;
+    font-size: larger;
+    font-weight: bold;
 }
