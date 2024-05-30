@@ -436,4 +436,153 @@ margin-left: 2vh;
      max-width: 40vh;   
     }
     }
+    @media screen and (max-width:920px) {
+        body {
+            header{
+                width: 100%;
+                background-image: url(../assets/images/banner-bk.jpg);
+                color: white;
+                height: 61vh;
+                display: flex;
+                flex-direction: column;
+                background-position: center;
+            }
+            .titt{
+                text-align: center;
+                width: 70vh;
+                margin-left: 16vh;
+                padding: 30px;
+                font-size: 45px;
+             }
+             .one{
+                font-size: 8vh;
+                width: 100%;
+                font-weight: bold;
+            }
+            .onetwo{
+                width: 100%;
+                font-weight: bold;
+            }
+            #emailque{
+                width: 21vh;
+                height: 3vh;
+                background-color: #00ffae00;
+                border-color: #00FFAD;
+                border-radius: 10px;
+                
+            }
+            #nameque{
+                width: 20vh;
+                height: 3vh;
+                background-color: #00ffae00;
+                border-color: #00FFAD;
+                border-radius: 10px;
+                
+            }
+            #email{
+                margin-top: 8vh;
+                padding: 2vh;
+                color: white;
+                font-size: 3vh;
+                width: 20vh;
+                margin-right: 10vh;
+              
+            }
+            #name {
+                margin-top: 8vh;
+                padding: 2vh;
+                color: white;
+                font-size: 3vh;
+                width: 21vh;
+                margin-left: 50px;
+            }
+            #messageque{
+                width: 55vh;
+                height: 20vh;
+                background-color: #00ffae00;
+                border-color: #00FFAD;
+                border-radius: 10px;
+                border-width: 2px;
+            }
+            #buttomcontact{
+                width: 55vh;
+                height: 5vh;
+                border-radius: 30px;
+                background-color: #00FFAD;
+                font-size: x-large;
+                border: #00FFAD;
+            }
+            #parraftwo{
+                margin-top: 3vh;
+                margin-left: 25vh;
+                max-width: 40vh;
+                font-size: 20px;
+            }
+
+            .titulosecciontwo{
+                width: 40vh;
+                margin-left: 25vh;
+                margin-top: 10vh;
+                font-size: 60px;
+            }
+            #imgsectiontwo2 {
+                padding-bottom: 40px;
+                padding-top: 40px;
+                margin-left: 20vh;
+                width: 30vh;
+            }
+            #imgsectiontwo {
+                margin-left: 90vh;
+                max-width: 30vh;
+                width: 60vh;
+                margin-top: -25vh;
+                margin-left: 60vh;
+            }
+            #asidetwo {
+                margin-top: 10vh;
+                display: flex;
+                flex-direction: column;
+                width: 100vh;
+            }
+            #tittlepricing{
+                font-size: 5vh;
+                  margin-left: 30vh;
+                  margin-top: 10vh;
+               }
+            #text{
+                max-width: 30vh;   
+               }
+               #inf {
+                width: 27vh;
+            }
+               #contactinfo {
+                margin-top: 7px;
+            }
+               #name {
+                margin-top: 8vh;
+                padding: 2vh;
+                color: white;
+                font-size: 3vh;
+                width: 22vh;
+                margin-left: 50px;
+            }
+            #messageque {
+                width: 48vh;
+                height: 20vh;
+                background-color: #00ffae00;
+                border-color: #00FFAD;
+                border-radius: 10px;
+                border-width: 2px;
+            }
+            #buttomcontact {
+                width: 49vh;
+                height: 5vh;
+                border-radius: 30px;
+                background-color: #00FFAD;
+                font-size: x-large;
+                border: #00FFAD;
+            }
+        }
+       
+        }
    
