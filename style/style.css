@@ -558,6 +558,20 @@ margin-left: 2vh;
                #contactinfo {
                 margin-top: 7px;
             }
+            #questone {
+                display: flex;
+                justify-content: center;
+                max-width: 45vh;
+            }
+            #message {
+                margin-left: -2vh;
+                color: white;
+                font-size: 3vh;
+                width: 10vh;
+            }
+            #imgsecciontwo{
+                max-width: 18vh ;
+            }
                #name {
                 margin-top: 8vh;
                 padding: 2vh;
@@ -644,14 +658,19 @@ margin-left: 2vh;
                     height: 38vh;
                     margin-top: 3vh;
                 }
-                #name{
+                #questone {
+                    display: flex;
+                    justify-content: center;
+                    max-width: 42vh;
+                }
+                #name {
                     margin-top: 8vh;
-                        padding: 2vh;
-                        color: white;
-                        font-size: 3vh;
-                        width: 17vh;
-                        margin-left: 24px;
-                    }
+                    padding: 2vh;
+                    color: white;
+                    font-size: 3vh;
+                    width: 17vh;
+                    margin-left: -6vh;
+                }
                     #nameque{
                         width: 18vh;
                         height: 3vh;
@@ -697,5 +716,220 @@ margin-left: 2vh;
                     
                     
             }
+        }
+        @media  screen and (max-width: 480px) {
+            body{
+                
+                
+                header{
+                    width: 100%;
+                    background-image: url(../assets/images/banner-bk.jpg);
+                    color: white;
+                    height: 61vh;
+                    display: flex;
+                    flex-direction: column;
+                    background-position: center;
+                }
+                #logo {
+                    max-width: 90px;
+                    max-height: 100px;
+                    margin-left: -15px;
+                }
+                .titt {
+                    text-align: center;
+                    width: 41vh;
+                    margin-left: 5vh;
+                    padding: 30px;
+                    font-size: 27px;
+                }
+                .one {
+                    font-size: 4vh;
+                    width: 100%;
+                    font-weight: bold;
+                }
+                #tittletwo {
+                    margin-left: 97px;
+                    margin-top: 30px;
+                }
+                .titulosecciontwo {
+                    width: 27vh;
+                    margin-left: 13vh;
+                    margin-top: 10vh;
+                    font-size: 36px;
+                }
+                #buttomsectiontwo {
+                    margin-top: 25px;
+                    max-width: 16vh;
+                    margin-left: 12vh;
+                    height: 45px;
+                    border-radius: 30px;
+                    font-size: large;
+                    background-color: #192440;
+                    color: white;
+                }   
+                #imgsectiontwo {
+                    margin-left: 13vh;
+                    max-width: 25vh;
+                    margin-top: -29vh;
+                    margin-left: 40vh;
+                }
+                #imgsectiontwo2 {
+                    padding-bottom: 40px;
+                    padding-top: 40px;
+                    margin-left: -2vh;
+                    width: 27vh;
+                    height: 34vh;
+                    margin-top: 3vh;
+                }
+                #asidetwo2 {
+                    display: flex;
+                    margin-top: 20vh;
+                }
+                .titulosecciontwo2 {
+                    font-size: 34px;
+                }
+                #textbutton {
+                    flex-direction: column;
+                    max-width: 24vh;
+                    padding: 40px;
+                    margin-left: -3vh;
+                }
+                #parraftwo {
+                    margin-top: 3vh;
+                    margin-left: 13vh;
+                    max-width: 28vh;
+                    font-size: 20px;
+                }
+                #buttomsectiontwo2 {
+                    margin-top: 25px;
+                    max-width: 16vh;
+                    margin-left: -1vh;
+                    height: 45px;
+                    border-radius: 30px;
+                    font-size: large;
+                    background-color: #192440;
+                    color: white;
+                }
+                #tittlepricing {
+                    font-size: 5vh;
+                    margin-left: 30vh;
+                    margin-top: 10vh;
+                }
+                #pricing {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    margin-top: -10vh;
+                    margin-right: 30px;
+                }
+                #tittlepricing {
+                    font-size: 5vh;
+                    margin-left: 5vh;
+                    margin-top: 10vh;
+                }
+                #secctionone {
+                    display: flex;
+                    justify-content: space-around;
+                    text-align: center;
+                    max-width: 54vh;
+                }
+                #professional {
+                    line-height: 50px;
+                    text-align: center;
+                    margin-top: 25vh;
+                    margin-left: -22vh;
+                }
+                .img2 {
+                    max-width: 7vh;
+                }
+                #textasidetwo2 {
+                    margin-top: 3vh;
+                    font-size: 20px;
+                    max-width: 80vh;
+                }
+                #questone {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    max-width: 23vh;
+                    margin-left: -13vh;
+                }
+                #nameque {
+                    width: 15vh;
+                    height: 3vh;
+                    background-color: #00ffae00;
+                    border-color: #00FFAD;
+                    border-radius: 10px;
+                }
+                #name {
+                    margin-top: 8vh;
+                    padding: 2vh;
+                    color: white;
+                    font-size: 3vh;
+                    width: 14vh;
+                    margin-left: 24px;
+                }
+                #email {
+                    margin-top: 8vh;
+                    padding: 2vh;
+                    color: white;
+                    font-size: 3vh;
+                    width: 16vh;
+                    margin-left: 3vh;
+                }
+                #emailque {
+                    width: 15vh;
+                    height: 3vh;
+                    background-color: #00ffae00;
+                    border-color: #00FFAD;
+                    border-radius: 10px;
+                }
+                #message {
+                    margin-left: -8vh;
+                    color: white;
+                    font-size: 3vh;
+                    width: 10vh;
+                }
+                #messageque {
+                    width: 15vh;
+                    height: 8vh;
+                    background-color: #00ffae00;
+                    border-color: #00FFAD;
+                    border-radius: 10px;
+                    border-width: 2px;
+                }
+                #buttomcontact {
+                    width: 16vh;
+                    height: 5vh;
+                    border-radius: 30px;
+                    background-color: #00FFAD;
+                    font-size: x-large;
+                    border: #00FFAD;
+                }
+                #premium {
+                    line-height: 50px;
+                    text-align: center;
+                    margin-top: 25vh;
+                    padding-right: 10vh;
+                    margin-left: 10vh;
+                }
+                #startup {
+                    margin-top: 20vh;
+                    line-height: 50px;
+                    text-align: center;
+                    background-color: #192440;
+                    color: white;
+                    border-radius: 10px;
+                    width: 40vh;
+                    margin-left: 7vh;
+                }
+                #professional {
+                    line-height: 50px;
+                    text-align: center;
+                    margin-top: 25vh;
+                    margin-left: -8vh;
+                }
+            }
+            
         }
    
