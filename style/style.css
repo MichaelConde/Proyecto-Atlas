@@ -585,4 +585,117 @@ margin-left: 2vh;
         }
        
         }
+        @media screen and (max-width:768px){
+            body{
+                header{
+                    width: 100%;
+                    background-image: url(../assets/images/banner-bk.jpg);
+                    color: white;
+                    height: 61vh;
+                    display: flex;
+                    flex-direction: column;
+                    background-position: center;
+                }
+                .two {
+                    margin-top: 20px;
+                    font-size: 2vh;
+                    width: 100%;
+                }
+                .titt {
+                    text-align: center;
+                    width: 70vh;
+                    margin-left: 7vh;
+                    padding: 30px;
+                    font-size: 45px;
+                }
+                #asidetwo {
+                    margin-top: 10vh;
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    margin-left: -12vh;
+                } 
+                #imgsectiontwo {
+                    margin-left: 90vh;
+                    max-width: 38vh;
+                    width: 58vh;
+                    margin-top: -29vh;
+                    margin-left: 60vh;
+                }  
+              
+                #email{
+                    margin-top: 8vh;
+                    padding: 2vh;
+                    color: white;
+                    font-size: 3vh;
+                    width: 19vh;
+                    margin-right: 0vh;
+                  
+                }
+                
+                .img1 {
+                    max-width: 17vh;
+                }
+                #imgsectiontwo2 {
+                    padding-bottom: 40px;
+                    padding-top: 40px;
+                    margin-left: 12vh;
+                    width: 31vh;
+                    height: 38vh;
+                    margin-top: 3vh;
+                }
+                #name{
+                    margin-top: 8vh;
+                        padding: 2vh;
+                        color: white;
+                        font-size: 3vh;
+                        width: 17vh;
+                        margin-left: 24px;
+                    }
+                    #nameque{
+                        width: 18vh;
+                        height: 3vh;
+                        background-color: #00ffae00;
+                        border-color: #00FFAD;
+                        border-radius: 10px;
+                        
+                    }
+                    #emailque{
+                        width: 18vh;
+                        height: 3vh;
+                        background-color: #00ffae00;
+                        border-color: #00FFAD;
+                        border-radius: 10px;
+                        
+                    }
+                    #message {
+                        margin-left: -4vh;
+                        color: white;
+                        font-size: 3vh;
+                        width: 10vh;
+                    }
+                    #messageque {
+                        width: 40vh;
+                        height: 20vh;
+                        background-color: #00ffae00;
+                        border-color: #00FFAD;
+                        border-radius: 10px;
+                        border-width: 2px;
+                    }
+                    #buttomcontact {
+                        width: 41vh;
+                        height: 5vh;
+                        border-radius: 30px;
+                        background-color: #00FFAD;
+                        font-size: x-large;
+                        border: #00FFAD;
+                    }
+                    #contactinfo {
+                        margin-top: 14px;
+                        max-width: 30vh;
+                    }
+                    
+                    
+            }
+        }
    
