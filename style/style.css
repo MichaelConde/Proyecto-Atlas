@@ -18,6 +18,9 @@ header{
     margin-left: 50px;
     
 }
+#text{
+    max-width:60vh;
+}
 #tittleone{
    display: flex;
    justify-content: space-between;
